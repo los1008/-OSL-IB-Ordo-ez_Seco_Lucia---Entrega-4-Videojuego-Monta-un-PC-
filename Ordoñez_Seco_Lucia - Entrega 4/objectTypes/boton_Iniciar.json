@@ -1,0 +1,9 @@
+{
+	"name": "boton_Iniciar",
+	"plugin-id": "Button",
+	"sid": 811757224317417,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}
