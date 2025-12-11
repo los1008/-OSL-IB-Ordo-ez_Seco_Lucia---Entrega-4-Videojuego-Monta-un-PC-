@@ -1,0 +1,310 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "boton_Iniciar",
+					"sid": 306597197489594
+				}
+			],
+			"actions": [
+				{
+					"id": "move-layer",
+					"objectClass": "System",
+					"sid": 344627802413948,
+					"parameters": {
+						"layer": "\"Capa 0\"",
+						"insert-by": "\"Menu principal\"",
+						"where": "above"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "boton_Iniciar",
+					"sid": 414913612713609,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "boton_salir",
+					"sid": 124475073183299,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EntradaDeTexto2",
+					"sid": 175029335650776,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EntradaDeTexto",
+					"sid": 618644292585610,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EntradaDeTexto3",
+					"sid": 437740641601139,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EntradaDeTexto4",
+					"sid": 529150298829846,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EntradaDeTexto5",
+					"sid": 139216634961634,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EntradaDeTexto6",
+					"sid": 563864309580862,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 146820144043377
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "boton_salir",
+					"sid": 509141715139286
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "FondoEnMosaico",
+					"sid": 893311341619132,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "boton_Iniciar",
+					"sid": 434473031234708
+				},
+				{
+					"id": "destroy",
+					"objectClass": "boton_salir",
+					"sid": 662708121450596
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EntradaDeTexto",
+					"sid": 246822171816707
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EntradaDeTexto2",
+					"sid": 444849472345629
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EntradaDeTexto3",
+					"sid": 393169727026735
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EntradaDeTexto4",
+					"sid": 717486337982652
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EntradaDeTexto5",
+					"sid": 430264081350202
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EntradaDeTexto6",
+					"sid": 768543842741497
+				}
+			],
+			"sid": 244182629626434
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto",
+					"sid": 629334583927804,
+					"parameters": {
+						"text": "\"placa base\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite2",
+					"sid": 108080761085864,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 578715900150681
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto2",
+					"sid": 485350172171956,
+					"parameters": {
+						"text": "\"fuente de alimentacion\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite6",
+					"sid": 220832988473773,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 352499643831943
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto3",
+					"sid": 650800914827019,
+					"parameters": {
+						"text": "\"memoria ram\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite7",
+					"sid": 615767625258326,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 961516222586955
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto4",
+					"sid": 365524153081322,
+					"parameters": {
+						"text": "\"cpu\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite3",
+					"sid": 501353154640761,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 588361092283896
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto5",
+					"sid": 748252257702814,
+					"parameters": {
+						"text": "\"disipador\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite4",
+					"sid": 676065552597179,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 817484600488990
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto6",
+					"sid": 940887276073250,
+					"parameters": {
+						"text": "\"tarjeta grafica\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite5",
+					"sid": 483323730053489,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 810577340076714
+		}
+	],
+	"sid": 664922416439216
+}
