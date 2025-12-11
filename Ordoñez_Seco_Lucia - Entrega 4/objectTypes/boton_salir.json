@@ -1,9 +1,0 @@
-{
-	"name": "boton_salir",
-	"plugin-id": "Button",
-	"sid": 228009632630487,
-	"isGlobal": false,
-	"editorNewInstanceIsReplica": true,
-	"instanceVariables": [],
-	"behaviorTypes": []
-}
